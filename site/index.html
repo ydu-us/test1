@@ -1,5 +1,98 @@
+<!DOCTYPE html>
 <html>
+<head>
+<meta charset="utf-8">
+<title>Background</title>
+<style>
+
+
+* {
+	box-sizing: border-box;
+}
+
+div {
+		height: 125px;
+		
+		border: 1px solid black;
+		padding: 2px ;
+		background-color: gray;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+
+section {
+	width: 100px;
+	border:1px solid black;
+	margin-right: -3px;
+	margin-top: -3px;
+	position: absolute;
+	right: 2px;
+	text-align: center;
+
+	}
+
+p {
+	clear: right;
+	}
+
+#s1 {
+	background-color: red;
+	}
+
+#s2 {
+	background-color: yellow;
+	}
+
+#s3 {
+	background-color: red;
+
+}
+@media (min-width: 991px)
+{
+	div {
+			width: 30%;
+			float: left;
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	
+
+	.topdiv {
+		float: left;
+		width: 45%;
+	}
+
+	.bottomdiv {
+		clear: left;
+	}
+
+}
+
+
+
+
+</style>
 <body>
-<h1> Hellow World </h1>
+
+<div class="topdiv">
+<section id="s1">Chicken</section>
+<p>Iorem ipsum dolor sit omet, consecteure odipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+</div>
+
+<div class="topdiv">
+<section id="s2">Beef</section>
+<p>Iorem ipsum dolor sit omet, consecteure odipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+</div>
+
+<div class="bottomdiv">
+<section id="s3">Sushi</section>
+<p>Iorem ipsum dolor sit omet, consecteure odipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+</div>
+
 </body>
 </html>
