@@ -1,0 +1,47 @@
+
+body {
+	font-family: 'Oxygen', sans-serif;
+}
+
+#brandtext {
+	color: black;
+	font-style: bold;
+}
+#header-nav {
+	border-radius: 0;
+	border: 0;
+}
+
+#collapsable-nav {
+	background-color: white;
+}
+
+#topnav {
+	background-color: gray;
+	border: 1px solid black;
+
+}
+
+.menuitem {
+	padding: 15px;
+}
+.menudesc {
+	padding: 15px;
+	background-color: gray;
+
+}
+.popitem {
+	
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin-bottom: 10px;
+}
+
+li  a:hover {
+	color: red;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
